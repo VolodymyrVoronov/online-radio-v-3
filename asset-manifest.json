@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/online-radio-v-3/static/css/main.ad01ed0d.chunk.css",
+    "main.js": "/online-radio-v-3/static/js/main.dfb0b415.chunk.js",
+    "main.js.map": "/online-radio-v-3/static/js/main.dfb0b415.chunk.js.map",
+    "runtime-main.js": "/online-radio-v-3/static/js/runtime-main.0d66e9c1.js",
+    "runtime-main.js.map": "/online-radio-v-3/static/js/runtime-main.0d66e9c1.js.map",
+    "static/js/2.4215d3fc.chunk.js": "/online-radio-v-3/static/js/2.4215d3fc.chunk.js",
+    "static/js/2.4215d3fc.chunk.js.map": "/online-radio-v-3/static/js/2.4215d3fc.chunk.js.map",
+    "static/js/3.4601bc15.chunk.js": "/online-radio-v-3/static/js/3.4601bc15.chunk.js",
+    "static/js/3.4601bc15.chunk.js.map": "/online-radio-v-3/static/js/3.4601bc15.chunk.js.map",
+    "index.html": "/online-radio-v-3/index.html",
+    "static/css/main.ad01ed0d.chunk.css.map": "/online-radio-v-3/static/css/main.ad01ed0d.chunk.css.map",
+    "static/js/2.4215d3fc.chunk.js.LICENSE.txt": "/online-radio-v-3/static/js/2.4215d3fc.chunk.js.LICENSE.txt",
+    "static/media/global.css": "/online-radio-v-3/static/media/bg-pattern.0d4b4d72.jpg",
+    "static/media/header-bg-pattern.19b7d488.jpg": "/online-radio-v-3/static/media/header-bg-pattern.19b7d488.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d66e9c1.js",
+    "static/js/2.4215d3fc.chunk.js",
+    "static/css/main.ad01ed0d.chunk.css",
+    "static/js/main.dfb0b415.chunk.js"
+  ]
+}
