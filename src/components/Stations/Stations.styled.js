@@ -96,7 +96,8 @@ const NoFavoritesTitle = styled.p`
 `;
 
 const StationsShowButton = styled.button`
-  display: block;
+  display: flex;
+  justify-content: center;
 
   width: auto;
 
@@ -129,6 +130,44 @@ const StationsShowButton = styled.button`
 
     cursor: pointer;
   }
+
+  @media (pointer: coarse) {
+    &:hover {
+      color: #ffffff;
+
+      background-color: #2b2b2b;
+    }
+  }
+`;
+
+const stationsShowButtonIconAnimationDown = keyframes`
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(5px);}
+  100% { transform: translateY(0px); }
+`;
+
+const stationsShowButtonIconAnimationUp = keyframes`
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px);}
+  100% { transform: translateY(0px); }
+`;
+
+const StationsShowButtonIcon = styled.span`
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  margin-left: 10px;
+
+  ${(props) =>
+    props.showStations
+      ? css`
+          animation: 2s ${stationsShowButtonIconAnimationDown} infinite;
+        `
+      : css`
+          animation: 2s ${stationsShowButtonIconAnimationUp} infinite;
+        `};
 `;
 
 const StationBlock = styled.section`
@@ -249,7 +288,8 @@ const ButtonFavorite = styled.div`
   margin: 0;
   padding: 0;
 
-  margin-left: 5px;
+  margin-left: auto;
+  margin-right: 15px;
 
   font-family: "Turret Road", cursive;
   font-size: 18px;
@@ -264,8 +304,6 @@ const ButtonFavorite = styled.div`
           color: orange;
 
           &:hover {
-            color: #ffa50078;
-
             cursor: pointer;
 
             transition: 0.5s ease;
@@ -273,11 +311,15 @@ const ButtonFavorite = styled.div`
         `
       : css`
           &:hover {
-            color: #ffa50078;
-
             cursor: pointer;
 
             transition: 0.5s ease;
+          }
+
+          @media (pointer: coarse) {
+            &:hover {
+              color: #ffffff;
+            }
           }
         `}
 `;
@@ -339,4 +381,5 @@ export {
   PlayButton,
   NoFavoritesTitle,
   StationsShowButton,
+  StationsShowButtonIcon,
 };

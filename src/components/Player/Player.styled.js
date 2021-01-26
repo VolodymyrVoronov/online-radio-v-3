@@ -151,6 +151,12 @@ const VolumeButton = styled.div`
 
     cursor: pointer;
   }
+
+  @media (pointer: coarse) {
+    &:hover {
+      color: #ffffff;
+    }
+  }
 `;
 
 const VolumeRange = styled.input`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 import { device } from "../../helpers/const";
 
@@ -40,7 +40,7 @@ const NoStationTitle = styled.p`
   font-size: 26px;
   line-height: 29px;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: none;
 
   color: #ffffff;
 
@@ -59,6 +59,12 @@ const NoStationTitle = styled.p`
     font-size: 26px;
     line-height: 29px;
   }
+`;
+
+const noStationIconAnimation = keyframes`
+  0% { transform: scale3d(1, 1, 1); }
+  50% { transform: scale3d(1.1, 1.1, 1.1);}
+  100% { transform: scale3d(1, 1, 1); }
 `;
 
 const NoStationIcon = styled.span`
@@ -82,6 +88,8 @@ const NoStationIcon = styled.span`
 
   border: 10px solid #ffffff;
   border-radius: 50%;
+
+  animation: 5s ${noStationIconAnimation} infinite;
 
   @media ${device.mobileS} {
     margin-top: 25px;

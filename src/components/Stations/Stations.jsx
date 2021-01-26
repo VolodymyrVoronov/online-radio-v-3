@@ -12,11 +12,12 @@ import { FILTER_TYPES } from "./../../helpers/const";
 
 import { BsStarFill } from "react-icons/bs";
 import { FiPlayCircle } from "react-icons/fi";
-import { MdLens } from "react-icons/md";
+import { MdLens, MdExpandMore, MdExpandLess } from "react-icons/md";
 
 import {
   StationsContainer,
   StationsShowButton,
+  StationsShowButtonIcon,
   StationBlock,
   StationBlockHeader,
   StationTitle,
@@ -93,7 +94,21 @@ const Stations = () => {
             onClick={() => onShowStationsClick()}
             type="button"
           >
-            {showStations ? `Show stations` : `Hide stations`}
+            {showStations ? (
+              <>
+                Show stations
+                <StationsShowButtonIcon showStations={showStations}>
+                  <MdExpandMore />
+                </StationsShowButtonIcon>
+              </>
+            ) : (
+              <>
+                Hide stations
+                <StationsShowButtonIcon showStations={showStations}>
+                  <MdExpandLess />
+                </StationsShowButtonIcon>
+              </>
+            )}
           </StationsShowButton>
         ) : null}
       </>

@@ -200,7 +200,6 @@ const [useStore] = create((set) => ({
     },
   ],
 
-  isPlaying: false,
   activeIndex: null,
   stationToPlay: [],
   filterType: FILTER_TYPES.ALL_STATIONS,
