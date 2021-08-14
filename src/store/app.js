@@ -9,7 +9,7 @@ const [useStore] = create((set) => ({
     {
       id: 1,
       name: `Radio Record`,
-      streamUrl: `http://air.radiorecord.ru:805/rr_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/rr_main96.aacp`,
       genres: [`All`, `Pop`, `Russian`],
       isPlaying: false,
       isFavorite: false,
@@ -17,7 +17,7 @@ const [useStore] = create((set) => ({
     {
       id: 2,
       name: `Megamix`,
-      streamUrl: `http://air.radiorecord.ru:805/mix_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/mix96.aacp`,
       genres: [`All`, `Special`],
       isPlaying: false,
       isFavorite: false,
@@ -25,23 +25,23 @@ const [useStore] = create((set) => ({
     {
       id: 3,
       name: `Record Deep`,
-      streamUrl: `http://air.radiorecord.ru:805/deep_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/deep96.aacp`,
       genres: [`All`, `House`],
       isPlaying: false,
       isFavorite: false,
     },
-    {
-      id: 4,
-      name: `Record Club`,
-      streamUrl: `http://air.radiorecord.ru:805/club_128`,
-      genres: [`All`, `House`],
-      isPlaying: false,
-      isFavorite: false,
-    },
+    // {
+    //   id: 4,
+    //   name: `Record Club`,
+    //   streamUrl: `http://air.radiorecord.ru:805/club_128`,
+    //   genres: [`All`, `House`],
+    //   isPlaying: false,
+    //   isFavorite: false,
+    // },
     {
       id: 5,
       name: `Future House`,
-      streamUrl: `http://air.radiorecord.ru:805/fut_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/fut96.aacp`,
       genres: [`All`, `House`],
       isPlaying: false,
       isFavorite: false,
@@ -49,7 +49,7 @@ const [useStore] = create((set) => ({
     {
       id: 6,
       name: `Trancemission`,
-      streamUrl: `http://air.radiorecord.ru:805/tm_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/tm96.aacp`,
       genres: [`All`, `Trance`],
       isPlaying: false,
       isFavorite: false,
@@ -57,7 +57,7 @@ const [useStore] = create((set) => ({
     {
       id: 7,
       name: `Record Chill-Out`,
-      streamUrl: `http://air.radiorecord.ru:805/chil_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/chil96.aacp`,
       genres: [`All`, `Chill`],
       isPlaying: false,
       isFavorite: false,
@@ -65,7 +65,7 @@ const [useStore] = create((set) => ({
     {
       id: 8,
       name: `Minimal Tech`,
-      streamUrl: `http://air.radiorecord.ru:805/mini_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/mini96.aacp`,
       genres: [`All`, `House`],
       isPlaying: false,
       isFavorite: false,
@@ -73,7 +73,7 @@ const [useStore] = create((set) => ({
     {
       id: 9,
       name: `Pirate Station`,
-      streamUrl: `http://air.radiorecord.ru:805/ps_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/ps96.aacp`,
       genres: [`All`, `Drum`],
       isPlaying: false,
       isFavorite: false,
@@ -81,7 +81,7 @@ const [useStore] = create((set) => ({
     {
       id: 10,
       name: `Russian Mix`,
-      streamUrl: `http://air.radiorecord.ru:805/rus_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/rus96.aacp`,
       genres: [`All`, `Pop`, `Russian`],
       isPlaying: false,
       isFavorite: false,
@@ -89,7 +89,7 @@ const [useStore] = create((set) => ({
     {
       id: 11,
       name: `Vip House`,
-      streamUrl: `http://air.radiorecord.ru:805/vip_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/vip96.aacp`,
       genres: [`All`, `House`],
       isPlaying: false,
       isFavorite: false,
@@ -97,7 +97,7 @@ const [useStore] = create((set) => ({
     {
       id: 12,
       name: `Superdisco 90th`,
-      streamUrl: `http://air.radiorecord.ru:805/sd90_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/sd9096.aacp`,
       genres: [`All`, `Pop`, `Russian`],
       isPlaying: false,
       isFavorite: false,
@@ -105,7 +105,7 @@ const [useStore] = create((set) => ({
     {
       id: 13,
       name: `Record Breaks`,
-      streamUrl: `http://air.radiorecord.ru:805/brks_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/brks96.aacp`,
       genres: [`All`, `Break`, `Bass`],
       isPlaying: false,
       isFavorite: false,
@@ -113,7 +113,7 @@ const [useStore] = create((set) => ({
     {
       id: 14,
       name: `Record Dubstep`,
-      streamUrl: `http://air.radiorecord.ru:805/dub_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/dub96.aacp`,
       genres: [`All`, `Bass`],
       isPlaying: false,
       isFavorite: false,
@@ -121,7 +121,7 @@ const [useStore] = create((set) => ({
     {
       id: 15,
       name: `Record Dancecore`,
-      streamUrl: `http://air.radiorecord.ru:805/dc_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/dc96.aacp`,
       genres: [`All`, `Oldschool`],
       isPlaying: false,
       isFavorite: false,
@@ -129,7 +129,7 @@ const [useStore] = create((set) => ({
     {
       id: 16,
       name: `Record Techno`,
-      streamUrl: `http://air.radiorecord.ru:805/techno_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/techno96.aacp`,
       genres: [`All`, `Hard`, `Techno`],
       isPlaying: false,
       isFavorite: false,
@@ -137,7 +137,7 @@ const [useStore] = create((set) => ({
     {
       id: 17,
       name: `Record Hardstyle`,
-      streamUrl: `http://air.radiorecord.ru:805/teo_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/teo96.aacp`,
       genres: [`All`, `Hard`],
       isPlaying: false,
       isFavorite: false,
@@ -145,23 +145,23 @@ const [useStore] = create((set) => ({
     {
       id: 18,
       name: `Record Trap`,
-      streamUrl: `http://air.radiorecord.ru:805/trap_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/trap96.aacp`,
       genres: [`All`, `Bass`, `Rap/Urban`],
       isPlaying: false,
       isFavorite: false,
     },
-    {
-      id: 19,
-      name: `Pump`,
-      streamUrl: `http://air.radiorecord.ru:805/pump_128`,
-      genres: [`All`],
-      isPlaying: false,
-      isFavorite: false,
-    },
+    // {
+    //   id: 19,
+    //   name: `Pump`,
+    //   streamUrl: `http://air.radiorecord.ru:805/pump_128`,
+    //   genres: [`All`],
+    //   isPlaying: false,
+    //   isFavorite: false,
+    // },
     {
       id: 20,
       name: `Record Rock`,
-      streamUrl: `http://air.radiorecord.ru:805/rock_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/rock96.aacp`,
       genres: [`All`, `Special`],
       isPlaying: false,
       isFavorite: false,
@@ -169,7 +169,7 @@ const [useStore] = create((set) => ({
     {
       id: 21,
       name: `Medlyak FM`,
-      streamUrl: `http://air.radiorecord.ru:805/mdl_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/mdl96.aacp`,
       genres: [`All`, `Pop`, `Special`, `Chill`],
       isPlaying: false,
       isFavorite: false,
@@ -177,7 +177,7 @@ const [useStore] = create((set) => ({
     {
       id: 22,
       name: `Gop FM`,
-      streamUrl: `http://air.radiorecord.ru:805/gop_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/gop96.aacp`,
       genres: [`All`, `Pop`, `Special`, `Russian`],
       isPlaying: false,
       isFavorite: false,
@@ -185,7 +185,7 @@ const [useStore] = create((set) => ({
     {
       id: 23,
       name: `Yo! FM`,
-      streamUrl: `http://air.radiorecord.ru:805/yo_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/rap96.aacp`,
       genres: [`All`, `Rap/Urban`],
       isPlaying: false,
       isFavorite: false,
@@ -193,7 +193,7 @@ const [useStore] = create((set) => ({
     {
       id: 24,
       name: `Rave FM`,
-      streamUrl: `http://air.radiorecord.ru:805/rave_128`,
+      streamUrl: `https://radiorecord.hostingradio.ru/rave96.aacp`,
       genres: [`All`, `Oldschool`, `Special`],
       isPlaying: false,
       isFavorite: false,
@@ -208,9 +208,7 @@ const [useStore] = create((set) => ({
   setStationToPlay: (id) =>
     set((state) => ({
       ...state,
-      stationToPlay: state.onlineRadioStations.filter(
-        (station) => station.id === id
-      ),
+      stationToPlay: state.onlineRadioStations.filter((station) => station.id === id),
     })),
 
   addToFavorite: (id) =>
@@ -229,10 +227,7 @@ const [useStore] = create((set) => ({
 
   setLocalStorage: () =>
     set((state) => {
-      localStorage.setItem(
-        "favoriteStations",
-        JSON.stringify(state.onlineRadioStations)
-      );
+      localStorage.setItem("favoriteStations", JSON.stringify(state.onlineRadioStations));
     }),
 
   getFromLocalStorage: () =>
@@ -253,11 +248,9 @@ const [useStore] = create((set) => ({
 
   setActiveIndex: (index) => set((state) => ({ ...state, activeIndex: index })),
 
-  getFilterType: (filterType) =>
-    set((state) => ({ ...state, filterType: filterType })),
+  getFilterType: (filterType) => set((state) => ({ ...state, filterType: filterType })),
 
-  setIsPlayButtonClick: (isPlayButtonClick) =>
-    set((state) => ({ ...state, isPlayButtonClick: isPlayButtonClick })),
+  setIsPlayButtonClick: (isPlayButtonClick) => set((state) => ({ ...state, isPlayButtonClick: isPlayButtonClick })),
 }));
 
 if (process.env.NODE_ENV === "development") {
